@@ -18,8 +18,7 @@ public class Juego {
     }
 
     public void reiniciaPartida() {
-        // Reinicia las vidas al número inicial
-        // Aquí se puede usar numeroDeVidas directamente
+        this.numeroDeVidas = numeroDeVidas;
     }
 
     public void actualizaRecord() {
@@ -33,4 +32,5 @@ public class Juego {
         numeroDeVidas--;
         return numeroDeVidas > 0;
     }
+
 }
